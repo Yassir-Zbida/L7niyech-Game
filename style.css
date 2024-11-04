@@ -1,0 +1,74 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    height: 100vh;
+}
+
+h2 {
+    color: #333;
+}
+
+.gameheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 10px 40px;
+    margin: 10px auto;
+    background-color: #ff6f61;
+    border-radius: 8px;
+    box-sizing: border-box;
+    flex-wrap: wrap; 
+}
+
+.fullScreen button,
+select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.fullScreen button {
+    background-color: #333;
+    color: white;
+}
+
+.gameBoard {
+    width: 90%;
+    max-width: 1200px;
+    height: 80vw;
+    max-height: 600px;
+    background-color: #0000ff;
+    border: 2px solid #333;
+    margin: 10px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.theme, .mode {
+    display: flex;
+    align-items: center;
+    margin: 5px 0; 
+}
+
+.theme h2, .mode h2 {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+select {
+    line-height: 1.5;
+    padding: 5px;
+    font-size: 16px;
+    height: auto;
+}
+
