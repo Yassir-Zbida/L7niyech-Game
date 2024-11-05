@@ -1,4 +1,4 @@
-# Snake Game
+# L7niyech-Game
 
 A modern take on the classic Snake Game, built with **HTML**, **CSS**, and **JavaScript**. The objective of the game is simple: guide the snake to consume food to grow in length while avoiding collisions with the walls or itself. The game is an enjoyable way to explore the fundamentals of game development with web technologies.
 
