@@ -36,12 +36,5 @@ A modern take on the classic Snake Game, built with **HTML**, **CSS**, and **Jav
 
 ## Live Demo
 
-[Play the game online here](https://your-username.github.io/snake-game)  <!-- Replace with actual link if hosted -->
+[Play the game online here](https://your-username.github.io/snake-game)  
 
-## Installation
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-Ensure

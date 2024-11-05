@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #f4f4f4;
     margin: 0;
     height: 100vh;
@@ -51,8 +52,11 @@ select {
     margin: 10px auto;
     box-sizing: border-box;
     position: relative;
+    display: grid;
+    grid-template-columns: repeat(42,1fr);
+    grid-template-rows: repeat(21,1fr);
+    
 }
-
 
 .theme, .mode {
     display: flex;
@@ -72,3 +76,17 @@ select {
     height: auto;
 }
 
+.snake{
+    background: black ;
+    border: 2px solid ;
+    border-radius: 10%;
+}
+.food{
+    background: grey;
+    border: solid 2px black ;
+}
+.logo{
+    margin-top: 20px;
+    height:200px ;
+    width: 200px;
+}
